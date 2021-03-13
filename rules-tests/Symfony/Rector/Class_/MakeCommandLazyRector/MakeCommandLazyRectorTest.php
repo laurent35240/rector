@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Symfony\Rector\Class_\MakeCommandLazyRector;
 
 use Iterator;
-use Rector\Symfony\Rector\Class_\MakeCommandLazyRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

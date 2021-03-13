@@ -12,5 +12,5 @@ return static function (ContainerConfigurator $containerConfigurator): void {
     $services->set(TypedPropertyRector::class);
 
     $parameters = $containerConfigurator->parameters();
-    $parameters->set(Option::PHP_VERSION_FEATURES, PhpVersionFeature::UNION_TYPES - 1);
+    $parameters->set(Option::PHP_VERSION_FEATURES, PhpVersionFeature::UNION_TYPES);
 };

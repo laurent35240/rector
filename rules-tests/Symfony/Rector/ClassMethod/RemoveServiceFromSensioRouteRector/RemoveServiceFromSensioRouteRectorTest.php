@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Symfony\Rector\ClassMethod\RemoveServiceFromSensioRouteRector;
 
 use Iterator;
-use Rector\Symfony\Rector\ClassMethod\RemoveServiceFromSensioRouteRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

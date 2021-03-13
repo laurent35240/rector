@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Symfony4\Rector\MethodCall\VarDumperTestTraitMethodArgsRector;
 
 use Iterator;
-use Rector\Symfony4\Rector\MethodCall\VarDumperTestTraitMethodArgsRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

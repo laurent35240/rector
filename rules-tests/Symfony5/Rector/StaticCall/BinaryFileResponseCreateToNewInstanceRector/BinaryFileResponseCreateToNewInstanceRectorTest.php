@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Symfony5\Rector\StaticCall\BinaryFileResponseCreateToNewInstanceRector;
 
 use Iterator;
-use Rector\Symfony5\Rector\StaticCall\BinaryFileResponseCreateToNewInstanceRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

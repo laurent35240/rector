@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Symfony\Rector\ClassMethod\ReplaceSensioRouteAnnotationWithSymfonyRector;
 
 use Iterator;
-use Rector\Symfony\Rector\ClassMethod\ReplaceSensioRouteAnnotationWithSymfonyRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

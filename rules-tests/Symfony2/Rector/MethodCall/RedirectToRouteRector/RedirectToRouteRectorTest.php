@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Symfony2\Rector\MethodCall\RedirectToRouteRector;
 
 use Iterator;
-use Rector\Symfony2\Rector\MethodCall\RedirectToRouteRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

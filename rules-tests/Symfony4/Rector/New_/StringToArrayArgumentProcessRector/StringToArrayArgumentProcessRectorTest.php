@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Symfony4\Rector\New_\StringToArrayArgumentProcessRector;
 
 use Iterator;
-use Rector\Symfony4\Rector\New_\StringToArrayArgumentProcessRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Symfony\Rector\BinaryOp\ResponseStatusCodeRector;
 
 use Iterator;
-use Rector\Symfony\Rector\BinaryOp\ResponseStatusCodeRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

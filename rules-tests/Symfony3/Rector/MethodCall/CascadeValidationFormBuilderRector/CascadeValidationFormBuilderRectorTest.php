@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Symfony3\Rector\MethodCall\CascadeValidationFormBuilderRector;
 
 use Iterator;
-use Rector\Symfony3\Rector\MethodCall\CascadeValidationFormBuilderRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

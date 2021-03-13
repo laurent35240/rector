@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Symfony\Rector\Attribute\ExtractAttributeRouteNameConstantsRector;
 
 use Iterator;
-use Rector\Symfony\Rector\Attribute\ExtractAttributeRouteNameConstantsRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 

@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Rector\Tests\Symfony4\Rector\MethodCall\ContainerBuilderCompileEnvArgumentRector;
 
 use Iterator;
-use Rector\Symfony4\Rector\MethodCall\ContainerBuilderCompileEnvArgumentRector;
 use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
