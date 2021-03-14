@@ -37,12 +37,8 @@
         "nette/caching": "^3.1",
         "nette/utils": "^3.2",
         "nikic/php-parser": "^4.10.4",
-<<<<<<< HEAD
         "nette/robot-loader": "^3.4",
-        "phpstan/phpdoc-parser": "^0.4.12",
-=======
         "phpstan/phpdoc-parser": "dev-tv-add-attributes as 0.4.12",
->>>>>>> ecffdecff2... [composer] allow phpdoc-parser with attribute PR
         "phpstan/phpstan": "^0.12.81",
         "phpstan/phpstan-phpunit": "^0.12.18",
         "sebastian/diff": "^4.0.4",
@@ -52,8 +48,6 @@
         "symfony/http-kernel": "^4.4.8|^5.1",
         "symfony/process": "^4.4.8|^5.1",
         "symfony/uid": "^4.4.8|^5.1",
-<<<<<<< HEAD
-<<<<<<< HEAD
         "symplify/astral": "^9.2.11",
         "symplify/autowire-array-parameter": "^9.2.11",
         "symplify/console-color-diff": "^9.2.11",
@@ -64,30 +58,6 @@
         "symplify/skipper": "^9.2.11",
         "symplify/smart-file-system": "^9.2.11",
         "symplify/symfony-php-config": "^9.2.11",
-=======
-        "symplify/astral": "^9.2.4",
-        "symplify/autowire-array-parameter": "^9.2.4",
-        "symplify/console-color-diff": "^9.2.4",
-        "symplify/package-builder": "^9.2.4",
-        "symplify/rule-doc-generator": "^9.2.4",
-        "symplify/set-config-resolver": "^9.2.4",
-        "symplify/simple-php-doc-parser": "dev-main",
-        "symplify/skipper": "^9.2.4",
-        "symplify/smart-file-system": "^9.2.4",
-        "symplify/symfony-php-config": "^9.2.4",
->>>>>>> f6ec46d106... remove attribute aware return tag
-=======
-        "symplify/astral": "^9.2.10",
-        "symplify/autowire-array-parameter": "^9.2.10",
-        "symplify/console-color-diff": "^9.2.10",
-        "symplify/package-builder": "^9.2.10",
-        "symplify/rule-doc-generator": "^9.2.10",
-        "symplify/set-config-resolver": "^9.2.10",
-        "symplify/simple-php-doc-parser": "dev-main",
-        "symplify/skipper": "^9.2.10",
-        "symplify/smart-file-system": "^9.2.10",
-        "symplify/symfony-php-config": "^9.2.10",
->>>>>>> fa1a6cbf81... composer: lock to stable symplify
         "webmozart/assert": "^1.10"
     },
     "require-dev": {
@@ -100,21 +70,12 @@
         "rector/rector-generator": "^0.1.1",
         "symfony/security-core": "^5.2",
         "symfony/security-http": "^5.2",
-<<<<<<< HEAD
         "symplify/coding-standard": "^9.2.11",
         "symplify/easy-ci": "^9.2.11",
         "symplify/easy-coding-standard": "^9.2.11",
         "symplify/easy-testing": "^9.2.11",
         "symplify/phpstan-extensions": "^9.2.11",
         "symplify/phpstan-rules": "^9.2.11",
-=======
-        "symplify/coding-standard": "^9.2.10",
-        "symplify/easy-ci": "^9.2.10",
-        "symplify/easy-coding-standard": "^9.2.10",
-        "symplify/easy-testing": "^9.2.10",
-        "symplify/phpstan-extensions": "^9.2.10",
-        "symplify/phpstan-rules": "^9.2.10",
->>>>>>> fa1a6cbf81... composer: lock to stable symplify
         "tracy/tracy": "^2.8"
     },
     "replace": {
