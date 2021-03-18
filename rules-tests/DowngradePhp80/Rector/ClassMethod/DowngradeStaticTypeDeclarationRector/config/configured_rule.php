@@ -2,11 +2,10 @@
 
 declare(strict_types=1);
 
-use Rector\DeadCode\Rector\Class_\RemoveUnusedDoctrineEntityMethodAndPropertyRector;
+use Rector\DowngradePhp80\Rector\ClassMethod\DowngradeStaticTypeDeclarationRector;
 use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
 
 return static function (ContainerConfigurator $containerConfigurator): void {
     $services = $containerConfigurator->services();
-
-    $services->set(RemoveUnusedDoctrineEntityMethodAndPropertyRector::class);
+    $services->set(DowngradeStaticTypeDeclarationRector::class);
 };
