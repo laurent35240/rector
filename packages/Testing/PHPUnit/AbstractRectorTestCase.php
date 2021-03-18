@@ -99,6 +99,13 @@ abstract class AbstractRectorTestCase extends AbstractKernelTestCase implements 
         $this->removedAndAddedFilesCollector->reset();
     }
 
+    protected function tearDown(): void
+    {
+        // debug
+        parent::tearDown();
+        echo memory_get_usage() . PHP_EOL;
+    }
+
     public function provideConfigFilePath(): string
     {
         // must be implemented
